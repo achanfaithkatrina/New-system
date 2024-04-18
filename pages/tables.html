@@ -1,0 +1,227 @@
+<!--
+=========================================================
+* Material Dashboard 2 - v3.1.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/material-dashboard
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://www.creative-tim.com/license)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <title>
+    Administrator Dashboard
+  </title>
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+  <!-- Nucleo Icons -->
+  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <!-- CSS Files -->
+  <link id="pagestyle" href="../assets/css/material-dashboard.css?v=3.1.0" rel="stylesheet" />
+  <!-- Nepcha Analytics (nepcha.com) -->
+  <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
+  <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+  <script src="https://kit.fontawesome.com/2a5a50a96a.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="g-sidenav-show  bg-gray-200">
+  <!-- sidebar starts here -->
+  <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main" class="pig">
+    <div class="sidenav-header">
+      
+        <span class="nav-link-text ms-1" id="admin">Administrator Dashboard</span>
+      
+      
+    </div>
+    <hr class="horizontal light mt-0 mb-2">
+    <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-white active bg-gradient-primary" href="../pages/dashboard.html">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">dashboard</i>
+            </div>
+            <span class="nav-link-text ms-1">Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="../pages/tables.html">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">table_view</i>
+            </div>
+            <span class="nav-link-text ms-1">Leave Database</span>
+          </a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-white " href="../project-work/profiles.html">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">format_textdirection_r_to_l</i>
+            </div>
+            <span class="nav-link-text ms-1">Employee Profiles</span>
+          </a>
+        </li>
+        <li class="nav-item mt-3">
+          <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-8">Account pages</h6>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="../pages/profile.html">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">person</i>
+            </div>
+            <span class="nav-link-text ms-1">Profile</span>
+          </a>
+        </li>
+       
+      </ul>
+    </div>
+   
+  </aside>
+
+  <!-- sidebar ends here -->
+  <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <i class="fa-solid fa-tractor"></i>
+        <a class="navbar-brand" href="#">Multiplex Uganda</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+    </nav>      
+    <!-- End Navbar -->
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="col-12">
+          <div class="card my-4">
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+              <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                <h6 class="text-white text-capitalize ps-3">Leave Applications Database</h6>
+              </div>
+            </div>
+            <div class="card-body px-0 pb-2">
+              <div class="table-responsive p-0"></div>
+              <table class="table">
+                <tr>
+                    <th>Employee</th>
+                    <th>Leave Type</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>No.of Days</th>
+                    <th>Reason</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Namayanja Sarah</td>
+                    <td>Maternity Leave</td>
+                    <td>29th Feb 2004</td>
+                    <td>1st March 2004</td>
+                    <td>3</td>
+                    <td>Going to Hospital</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td>Opio Jackson</td>
+                    <td>Paternity Leave</td>
+                    <td>29th March 2004</td>
+                    <td>1st April 2004</td>
+                    <td>3</td>
+                    <td>Going to Hospital</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td>Musimenta Lawrence</td>
+                    <td>Casual Leave</td>
+                    <td>29th April 2004</td>
+                    <td>1st May 2004</td>
+                    <td>3</td>
+                    <td>Personal</td>
+                    <td>Pending</td>
+                </tr>
+                <tr>
+                    <td>Ndagire Faith</td>
+                    <td>Hospitalisation</td>
+                    <td>29th May 2004</td>
+                    <td>1st June 2004</td>
+                    <td>3</td>
+                    <td>Going to Hospital</td>
+                    <td>New</td>
+                </tr>
+                <tr>
+                    <td>Odongo Ivan</td>
+                    <td>Medical Leave</td>
+                    <td>29th June 2004</td>
+                    <td>1st July 2004</td>
+                    <td>3</td>
+                    <td>Going to Hospital</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td>Kitaka Hudson</td>
+                    <td>Paternity Leave</td>
+                    <td>29th July2004</td>
+                    <td>1st August 2004</td>
+                    <td>3</td>
+                    <td>Going to Hospital</td>
+                    <td>Declined</td>
+                </tr>
+                <tr>
+                    <td>Mugenyi Kevin</td>
+                    <td>Medical Leave</td>
+                    <td>29th August 2004</td>
+                    <td>1st September 2004</td>
+                    <td>3</td>
+                    <td>Going to Hospital</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td>Nanteza Vanessa</td>
+                    <td>Casual Leave</td>
+                    <td>29th September 2004</td>
+                    <td>1st October 2004</td>
+                    <td>3</td>
+                    <td>Personal</td>
+                    <td>Declined</td>
+                </tr>
+            </table>
+    </main>
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script>
+    var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+      var options = {
+        damping: '0.5'
+      }
+      Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
+  </script>
+  <!-- Github buttons -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/material-dashboard.min.js?v=3.1.0"></script>
+</body>
+
+</html>
